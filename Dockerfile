@@ -4,4 +4,4 @@ COPY package.json /app
 RUN yarn install
 COPY . /app
 CMD yarn start
-EXPOSE 5000
+EXPOSE 9000
